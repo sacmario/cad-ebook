@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Guia HTML e CSS - Cadastre-se</title>
+</head>
+<body>
+
+    <header class="flex-row">
+        <h1>[Ebook] Guia do HTML e CSS</h1>
+    </header>
+
+    <div class="main flex-row">
+        
+        <div class="descricao">
+            <p>Dê seus primeiros passos com desenvolvimento Web e aprenda a criar uma página do ZERO!</p>
+            <img src="img/img1.png" alt="Guia">
+        </div> 
+
+        <div class="div-formulario flex-column">
+            
+            <span>
+                <h2>Faça o donwload gratis aqui!</h2>
+                <p>Preencha o formulário abaixo para acessar o ebook.</p>
+            </span>
+
+            <span class="flex-column">
+                <label for="input-nome">Nome*</label>
+                <input type="text" name="input-nome" class="formulario">
+            </span>
+
+            <span class="flex-column">
+                <label for="input-e-mail">E-mail*</label>
+                <input type="email" name="input-e-mail" id="e-mail" class="formulario">
+            </span>
+
+            <span class="flex-column">
+                <label for="cidade">Cidade*</label>
+                <input type="text" name="cidade" id="cidade" class="formulario">
+            </span>
+
+            <span>
+                <label for="news?">Você gostaria de receber news sobre TI, Negócios e Inovação?*</label>
+                <input type="radio" name="news?" id="news-sim"> Sim
+                <input type="radio" name="news?" id="news-nao"> Não
+            </span>
+            
+            <input type="button" value="Acessar Ebook agora!" class="input-acessar">
+            
+        </div>
+    </div>
+
+    <footer class="rodape flex-row">
+        <p>&copy Mario Carlos 2022</p>
+    </footer>
+    
+</body>
+</html>
